@@ -1,0 +1,4 @@
+t_idx,received,unique,duplicates,missing,stops_put,ended_by_stop,consumers_alive,producers_alive,final_count,errors
+0,7473,746,6727,1254,3,3,0,0,-5473,0
+1,8237,1327,6910,673,3,3,0,0,-6237,0
+2,7922,1184,6738,816,3,3,0,0,-5922,0

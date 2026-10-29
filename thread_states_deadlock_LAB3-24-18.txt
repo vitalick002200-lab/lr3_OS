@@ -1,0 +1,16 @@
+Програма: deadlock.py --mode deadlock --repeats 2   PID=12756
+Дата: 2026-10-28 15:22:39
+
+--- знімок 1 (через 1.0 с), команда: powershell -NoProfile -Command (Get-Process -Id 12756).Threads | Select-Object Id,ThreadState,WaitReason | Format-Table -AutoSize | Out-String -Width 200
+Id ThreadState   WaitReason
+   -- -----------   ----------
+ 8828        Wait  UserRequest
+12308        Wait EventPairLow
+18048        Wait EventPairLow
+ 4208        Wait EventPairLow
+ 8396        Wait  UserRequest
+12856        Wait  UserRequest
+
+TID, надруковані програмою (для зіставлення зі знімком):
+  thread-0     8396
+  thread-1     12856

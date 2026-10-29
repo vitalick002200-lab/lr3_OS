@@ -1,0 +1,3 @@
+t_idx,role,pid,rss_kb,private_kb,vsz_kb,free_before_mb,free_after_parent_mb,free_after_child_mb,child_mode
+0,parent,19724,154892,15940,187556,8348.1,8212.1,8207.5,touch
+1,child,17768,152712,13948,185564,8348.1,8212.1,8207.5,touch

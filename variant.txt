@@ -1,0 +1,7 @@
+NAME=Футумайчук Віталій Андрійович
+N=24
+NT=2  INC=680  B=7  P=1  C=1
+MEM_MB=256  DELTA=0,2
+TOKEN=LAB3-24-18
+OS=Microsoft Windows 11 Pro (версія 10.0.26200, збірка 26200), AMD64
+LANGUAGE=Python; TOOLCHAIN=CPython 3.14.4 (з GIL)
